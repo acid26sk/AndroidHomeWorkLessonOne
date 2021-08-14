@@ -88,8 +88,7 @@
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="5dp"
         android:fontFamily="sans-serif-medium"
-        android:text="К заданию № 1"
-        app:iconTint="#FFFFFF" />
+        android:text="К заданию № 1" />
 
     <Button
         android:id="@+id/btn_transition_four"
