@@ -20,58 +20,56 @@
         android:layout_height="wrap_content"
         android:inputType="text|textCapWords"
         android:hint="Введите ваш город"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPersonName|textCapWords"
         android:hint="Введите ваше имя"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="phone"
         android:hint="Введите № телефона"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="number"
         android:hint="Введите №"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textPassword"
         android:hint="Введите пароль"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="textEmailAddress"
         android:hint="Введите e-mail"
-        android:layout_marginTop="5dp"/>
+        android:layout_marginTop="5dp"
+        android:layout_marginHorizontal="10dp" />
 
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:inputType="date"
         android:hint="Введите дату"
-        android:layout_marginTop="5dp"/>
-
-    <Button
-        android:id="@+id/btn_transition_one"
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginHorizontal="50dp"
         android:layout_marginTop="5dp"
-        android:fontFamily="sans-serif-medium"
-        android:text="К заданию № 1" />
+        android:layout_marginHorizontal="10dp" />
 
     <Button
         android:id="@+id/btn_transition_three"
@@ -80,7 +78,16 @@
         android:layout_marginHorizontal="50dp"
         android:layout_marginTop="5dp"
         android:fontFamily="sans-serif-medium"
-        android:text="К заданию № 3" />
+        android:text="К заданию № 1" />
+
+    <Button
+        android:id="@+id/btn_transition_four"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginHorizontal="50dp"
+        android:layout_marginTop="5dp"
+        android:fontFamily="sans-serif-medium"
+        android:text="Календарь" />
 
 
 </LinearLayout>
